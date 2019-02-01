@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * Implements hook_uninstall().
+ */
+function relevant_gcse_uninstall() {
+  variable_del('relevant_gcse_cof_google');
+  variable_del('relevant_gcse_cof_here');
+  variable_del('relevant_gcse_cr');
+  variable_del('relevant_gcse_cx');
+  variable_del('relevant_gcse_domain');
+  variable_del('relevant_gcse_gl');
+  variable_del('relevant_gcse_hl');
+  variable_del('relevant_gcse_ie');
+  variable_del('relevant_gcse_locale_hl');
+  variable_del('relevant_gcse_locale_lr');
+  variable_del('relevant_gcse_lr');
+  variable_del('relevant_gcse_oe');
+  variable_del('relevant_gcse_results_display');
+  variable_del('relevant_gcse_results_gadget');
+  variable_del('relevant_gcse_results_prefix');
+  variable_del('relevant_gcse_results_searchbox_width');
+  variable_del('relevant_gcse_results_suffix');
+  variable_del('relevant_gcse_results_tab');
+  variable_del('relevant_gcse_results_title');
+  variable_del('relevant_gcse_results_width');
+  variable_del('relevant_gcse_safe');
+  variable_del('relevant_gcse_searchbox_width');
+  variable_del('relevant_gcse_sitesearch');
+  variable_del('relevant_gcse_sitesearch_default');
+  variable_del('relevant_gcse_sitesearch_option');
+}

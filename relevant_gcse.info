@@ -1,0 +1,18 @@
+name = "Relevant Google CSE"
+description = "Use Relevant suggested keywords to perform a Google Custom Search for IITB"
+core = 7.x
+dependencies[] = search
+files[] = relevant_gcse.install
+files[] = relevant_gcse.module
+files[] = relevant_gcse.admin.inc
+files[] = relevant_gcse.theme.inc
+scripts[] = relevant_gcse.js
+stylesheets[all][] = relevant_gcse.css
+
+
+; Information added by Drupal.org packaging script on 2014-05-19
+version = "7.x-2.x-dev"
+core = "7.x"
+project = "relevant_gcse"
+datestamp = "1400495939"
+
